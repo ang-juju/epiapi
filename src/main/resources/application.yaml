@@ -1,0 +1,23 @@
+#企业个人信息平台接口配置
+epic:
+  #接口地址
+  url: https://124.204.54.54:1068/epic/query?wsdl
+  #证书相对resources文件夹路径
+  path: my.keystore
+  #证书密码
+  password: qwer1234
+  #用户名
+  login-name: zhongruan
+  #随机数
+  random: ZNg6E8mfXwnG0DZpYs5L
+  #密钥
+  key: 21376655320d6cbf2e644114f64ad102
+  #偏移量
+  offset: KgVSwVgmHdcoIzhP
+
+
+spring:
+  jmx:
+    default-domain: epiApi
+  application:
+    name: epiApi
